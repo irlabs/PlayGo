@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43619A77151F292900B8F1BE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43619A76151F292900B8F1BE /* CoreLocation.framework */; };
+		43619A7A151F330A00B8F1BE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43619A79151F330A00B8F1BE /* MapKit.framework */; };
+		43619A7C151F394600B8F1BE /* tracklist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43619A7B151F394600B8F1BE /* tracklist.plist */; };
 		43941622151F1BE6004AC647 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43941621151F1BE6004AC647 /* UIKit.framework */; };
 		43941624151F1BE6004AC647 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43941623151F1BE6004AC647 /* Foundation.framework */; };
 		43941626151F1BE6004AC647 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43941625151F1BE6004AC647 /* CoreGraphics.framework */; };
@@ -15,22 +18,30 @@
 		43941632151F1BE6004AC647 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43941631151F1BE6004AC647 /* AppDelegate.m */; };
 		43941635151F1BE6004AC647 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43941634151F1BE6004AC647 /* ViewController.m */; };
 		43941638151F1BE6004AC647 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43941636151F1BE6004AC647 /* ViewController.xib */; };
+		43941643151F1CE1004AC647 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43941641151F1CE1004AC647 /* MapViewController.m */; };
+		43941644151F1CE1004AC647 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43941642151F1CE1004AC647 /* MapViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43619A76151F292900B8F1BE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		43619A79151F330A00B8F1BE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		43619A7B151F394600B8F1BE /* tracklist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tracklist.plist; sourceTree = "<group>"; };
 		4394161D151F1BE6004AC647 /* PlayGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43941621151F1BE6004AC647 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		43941623151F1BE6004AC647 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		43941625151F1BE6004AC647 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		43941629151F1BE6004AC647 /* PlayGo-Info.plist */ = {isa = PBXFileReference; path = "PlayGo-Info.plist"; sourceTree = "<group>"; };
+		43941629151F1BE6004AC647 /* PlayGo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlayGo-Info.plist"; sourceTree = "<group>"; };
 		4394162B151F1BE6004AC647 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4394162D151F1BE6004AC647 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4394162F151F1BE6004AC647 /* PlayGo-Prefix.pch */ = {isa = PBXFileReference; path = "PlayGo-Prefix.pch"; sourceTree = "<group>"; };
-		43941630151F1BE6004AC647 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		4394162F151F1BE6004AC647 /* PlayGo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlayGo-Prefix.pch"; sourceTree = "<group>"; };
+		43941630151F1BE6004AC647 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		43941631151F1BE6004AC647 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		43941633151F1BE6004AC647 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		43941633151F1BE6004AC647 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		43941634151F1BE6004AC647 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		43941637151F1BE6004AC647 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		43941640151F1CE1004AC647 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		43941641151F1CE1004AC647 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		43941642151F1CE1004AC647 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43619A7A151F330A00B8F1BE /* MapKit.framework in Frameworks */,
+				43619A77151F292900B8F1BE /* CoreLocation.framework in Frameworks */,
 				43941622151F1BE6004AC647 /* UIKit.framework in Frameworks */,
 				43941624151F1BE6004AC647 /* Foundation.framework in Frameworks */,
 				43941626151F1BE6004AC647 /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +80,8 @@
 		43941620151F1BE6004AC647 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				43619A79151F330A00B8F1BE /* MapKit.framework */,
+				43619A76151F292900B8F1BE /* CoreLocation.framework */,
 				43941621151F1BE6004AC647 /* UIKit.framework */,
 				43941623151F1BE6004AC647 /* Foundation.framework */,
 				43941625151F1BE6004AC647 /* CoreGraphics.framework */,
@@ -83,6 +98,9 @@
 				43941634151F1BE6004AC647 /* ViewController.m */,
 				43941636151F1BE6004AC647 /* ViewController.xib */,
 				43941628151F1BE6004AC647 /* Supporting Files */,
+				43941640151F1CE1004AC647 /* MapViewController.h */,
+				43941641151F1CE1004AC647 /* MapViewController.m */,
+				43941642151F1CE1004AC647 /* MapViewController.xib */,
 			);
 			path = PlayGo;
 			sourceTree = "<group>";
@@ -90,6 +108,7 @@
 		43941628151F1BE6004AC647 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				43619A7B151F394600B8F1BE /* tracklist.plist */,
 				43941629151F1BE6004AC647 /* PlayGo-Info.plist */,
 				4394162A151F1BE6004AC647 /* InfoPlist.strings */,
 				4394162D151F1BE6004AC647 /* main.m */,
@@ -151,6 +170,8 @@
 			files = (
 				4394162C151F1BE6004AC647 /* InfoPlist.strings in Resources */,
 				43941638151F1BE6004AC647 /* ViewController.xib in Resources */,
+				43941644151F1CE1004AC647 /* MapViewController.xib in Resources */,
+				43619A7C151F394600B8F1BE /* tracklist.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +185,7 @@
 				4394162E151F1BE6004AC647 /* main.m in Sources */,
 				43941632151F1BE6004AC647 /* AppDelegate.m in Sources */,
 				43941635151F1BE6004AC647 /* ViewController.m in Sources */,
+				43941643151F1CE1004AC647 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +295,7 @@
 				4394163D151F1BE6004AC647 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

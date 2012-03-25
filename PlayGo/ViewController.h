@@ -8,6 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@class MapViewController;
+
+@interface ViewController : UIViewController {
+    MapViewController *mapViewController;
+    
+    NSDictionary *trackList;
+}
+
+@property (nonatomic, retain) MapViewController *mapViewController;
+@property (nonatomic, retain) NSDictionary *trackList;
+
+-(IBAction)startTrackList:(id)sender;
 
 @end

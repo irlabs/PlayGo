@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "MapViewController.h"
 
 @implementation ViewController
+
+@synthesize mapViewController;
+@synthesize trackList;
 
 - (void)didReceiveMemoryWarning
 {
@@ -17,6 +21,28 @@
 }
 
 #pragma mark - View lifecycle
+
+
+-(IBAction)startTrackList:(id)sender {
+    NSLog(@"Starting TrackList");
+    
+    if (mapViewController == nil) {
+        MapViewController *newController = [[MapViewController alloc] initWithNibName:@"MapViewController" bundle:nil];
+        self.mapViewController = newController;
+        [newController release];
+        
+        // Not loading the plist
+        NSURL *plistURL = [[NSBundle mainBundle] URLForResource:@"trackList" withExtension:@"plist"];
+        self.trackList = [[NSDictionary alloc] initWithContentsOfURL:plistURL];
+        
+        self.mapViewController.trackListOwner = self;
+        
+    }
+    [self presentModalViewController:mapViewController animated:YES];
+    //[self presentViewController:mapView animated:YES completion:NULL];
+    
+}
+
 
 - (void)viewDidLoad
 {

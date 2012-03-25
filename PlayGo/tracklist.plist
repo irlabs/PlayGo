@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+   <dict>
+       <key>title</key>
+       <string>Unknown track</string>
+       <key>creator</key>
+       <string>acscherp</string>
+       <key>date</key>
+       <string>2012-03-25TODO11:41:05+0200</string>
+       <key>playlist</key>
+       <array>
+           <dict>
+               <key>lat</key>
+               <real>52.37244358657523</real>
+               <key>long</key>
+               <real>4.884197</real>
+               <key>artist</key>
+               <string>James Blake</string>
+               <key>track</key>
+               <string>Measurements</string>
+               <key>spotify</key>
+               <string>spotify:track:7qr4FVHFGviTFPXjgbiRzW</string>
+           </dict>
+           <dict>
+               <key>lat</key>
+               <real>52.37288207799176</real>
+               <key>long</key>
+               <real>4.884240458333333</real>
+               <key>artist</key>
+               <string>Manic Street Preachers</string>
+               <key>track</key>
+               <string>(It&#039;s Not War) Just The End Of Love</string>
+               <key>spotify</key>
+               <string>spotify:track:2l3ltbCc6UuyfTegHiSqzS</string>
+           </dict>
+           <dict>
+               <key>lat</key>
+               <real>52.37683850526008</real>
+               <key>long</key>
+               <real>4.8832914</real>
+               <key>artist</key>
+               <string>The Philadelphia Experiment</string>
+               <key>track</key>
+               <string>(Re)moved</string>
+               <key>spotify</key>
+               <string>spotify:track:5t4HbuJ2eRuCGuRl0SGt95</string>
+           </dict>
+           <dict>
+               <key>lat</key>
+               <real>52.37683850526008</real>
+               <key>long</key>
+               <real>4.8832914</real>
+               <key>artist</key>
+               <string>Technotronic</string>
+               <key>track</key>
+               <string>Pump Up The Jam</string>
+               <key>spotify</key>
+               <string>spotify:track:1ZtzjvhIcLoogzOpt4rKoa</string>
+           </dict>
+           <dict>
+               <key>lat</key>
+               <real>52.37683850526008</real>
+               <key>long</key>
+               <real>4.8832914</real>
+               <key>artist</key>
+               <string>Kraantje Pappie</string>
+               <key>track</key>
+               <string>Punt</string>
+               <key>spotify</key>
+               <string>spotify:track:39vT12J3V6u3qySIPpFq58</string>
+           </dict>
+       </array>
+   </dict>
+</plist>
