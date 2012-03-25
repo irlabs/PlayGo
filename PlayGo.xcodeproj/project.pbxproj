@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43941622151F1BE6004AC647 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43941621151F1BE6004AC647 /* UIKit.framework */; };
+		43941624151F1BE6004AC647 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43941623151F1BE6004AC647 /* Foundation.framework */; };
+		43941626151F1BE6004AC647 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43941625151F1BE6004AC647 /* CoreGraphics.framework */; };
+		4394162C151F1BE6004AC647 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4394162A151F1BE6004AC647 /* InfoPlist.strings */; };
+		4394162E151F1BE6004AC647 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4394162D151F1BE6004AC647 /* main.m */; };
+		43941632151F1BE6004AC647 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43941631151F1BE6004AC647 /* AppDelegate.m */; };
+		43941635151F1BE6004AC647 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43941634151F1BE6004AC647 /* ViewController.m */; };
+		43941638151F1BE6004AC647 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43941636151F1BE6004AC647 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4394161D151F1BE6004AC647 /* PlayGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43941621151F1BE6004AC647 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		43941623151F1BE6004AC647 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		43941625151F1BE6004AC647 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		43941629151F1BE6004AC647 /* PlayGo-Info.plist */ = {isa = PBXFileReference; path = "PlayGo-Info.plist"; sourceTree = "<group>"; };
+		4394162B151F1BE6004AC647 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4394162D151F1BE6004AC647 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4394162F151F1BE6004AC647 /* PlayGo-Prefix.pch */ = {isa = PBXFileReference; path = "PlayGo-Prefix.pch"; sourceTree = "<group>"; };
+		43941630151F1BE6004AC647 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		43941631151F1BE6004AC647 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		43941633151F1BE6004AC647 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		43941634151F1BE6004AC647 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		43941637151F1BE6004AC647 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4394161A151F1BE6004AC647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43941622151F1BE6004AC647 /* UIKit.framework in Frameworks */,
+				43941624151F1BE6004AC647 /* Foundation.framework in Frameworks */,
+				43941626151F1BE6004AC647 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43941612151F1BE6004AC647 = {
+			isa = PBXGroup;
+			children = (
+				43941627151F1BE6004AC647 /* PlayGo */,
+				43941620151F1BE6004AC647 /* Frameworks */,
+				4394161E151F1BE6004AC647 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4394161E151F1BE6004AC647 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4394161D151F1BE6004AC647 /* PlayGo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43941620151F1BE6004AC647 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43941621151F1BE6004AC647 /* UIKit.framework */,
+				43941623151F1BE6004AC647 /* Foundation.framework */,
+				43941625151F1BE6004AC647 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43941627151F1BE6004AC647 /* PlayGo */ = {
+			isa = PBXGroup;
+			children = (
+				43941630151F1BE6004AC647 /* AppDelegate.h */,
+				43941631151F1BE6004AC647 /* AppDelegate.m */,
+				43941633151F1BE6004AC647 /* ViewController.h */,
+				43941634151F1BE6004AC647 /* ViewController.m */,
+				43941636151F1BE6004AC647 /* ViewController.xib */,
+				43941628151F1BE6004AC647 /* Supporting Files */,
+			);
+			path = PlayGo;
+			sourceTree = "<group>";
+		};
+		43941628151F1BE6004AC647 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43941629151F1BE6004AC647 /* PlayGo-Info.plist */,
+				4394162A151F1BE6004AC647 /* InfoPlist.strings */,
+				4394162D151F1BE6004AC647 /* main.m */,
+				4394162F151F1BE6004AC647 /* PlayGo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4394161C151F1BE6004AC647 /* PlayGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4394163B151F1BE6004AC647 /* Build configuration list for PBXNativeTarget "PlayGo" */;
+			buildPhases = (
+				43941619151F1BE6004AC647 /* Sources */,
+				4394161A151F1BE6004AC647 /* Frameworks */,
+				4394161B151F1BE6004AC647 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayGo;
+			productName = PlayGo;
+			productReference = 4394161D151F1BE6004AC647 /* PlayGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43941614151F1BE6004AC647 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "IR labs";
+			};
+			buildConfigurationList = 43941617151F1BE6004AC647 /* Build configuration list for PBXProject "PlayGo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 43941612151F1BE6004AC647;
+			productRefGroup = 4394161E151F1BE6004AC647 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4394161C151F1BE6004AC647 /* PlayGo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4394161B151F1BE6004AC647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4394162C151F1BE6004AC647 /* InfoPlist.strings in Resources */,
+				43941638151F1BE6004AC647 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43941619151F1BE6004AC647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4394162E151F1BE6004AC647 /* main.m in Sources */,
+				43941632151F1BE6004AC647 /* AppDelegate.m in Sources */,
+				43941635151F1BE6004AC647 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4394162A151F1BE6004AC647 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4394162B151F1BE6004AC647 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		43941636151F1BE6004AC647 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43941637151F1BE6004AC647 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43941639151F1BE6004AC647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4394163A151F1BE6004AC647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4394163C151F1BE6004AC647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlayGo/PlayGo-Prefix.pch";
+				INFOPLIST_FILE = "PlayGo/PlayGo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4394163D151F1BE6004AC647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlayGo/PlayGo-Prefix.pch";
+				INFOPLIST_FILE = "PlayGo/PlayGo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43941617151F1BE6004AC647 /* Build configuration list for PBXProject "PlayGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43941639151F1BE6004AC647 /* Debug */,
+				4394163A151F1BE6004AC647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4394163B151F1BE6004AC647 /* Build configuration list for PBXNativeTarget "PlayGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4394163C151F1BE6004AC647 /* Debug */,
+				4394163D151F1BE6004AC647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43941614151F1BE6004AC647 /* Project object */;
+}
